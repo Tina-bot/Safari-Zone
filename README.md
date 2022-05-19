@@ -3,6 +3,8 @@
 
 >> My little project on a website where you can catch, keep and release your pokemon team
 
+<img align="right" width="200px" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png" >
+
    ```
    In this project 🔍
    
