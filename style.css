@@ -1,0 +1,89 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background: #5433FF;
+  background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #3385ffa4);
+  background-image: url("https://card-poke-simple.netlify.app/images/bg-pattern-top.svg"), url("https://card-poke-simple.netlify.app/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+#card {
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ffffff91;
+  border-radius: 50%;
+  background-color: rgba(77, 46, 46, 0.349);
+}
+
+button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.box {
+  max-width: 800px;
+  min-height: 400px;
+  background-color: #ffffffcb;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box ul li {
+  list-style: none;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3px;
+}
+
+.pokemon {
+  width: 15%;
+}
+
+.listPoke {
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+p span {
+  border: 1px solid #000;
+  border-radius: 3px;
+  border-color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 5px;
+  color: aliceblue;
+}
